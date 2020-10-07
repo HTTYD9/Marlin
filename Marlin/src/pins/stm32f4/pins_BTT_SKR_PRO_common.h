@@ -28,7 +28,7 @@
 // Use one of these or SDCard-based Emulation will be used
 #if NO_EEPROM_SELECTED
   //#define SRAM_EEPROM_EMULATION                 // Use BackSRAM-based EEPROM emulation
-  #define FLASH_EEPROM_EMULATION                  // Use Flash-based EEPROM emulation
+  //#define FLASH_EEPROM_EMULATION                  // Use Flash-based EEPROM emulation
 #endif
 
 #if ENABLED(FLASH_EEPROM_EMULATION)
@@ -42,6 +42,11 @@
 //
 #define SERVO0_PIN                          PA1
 #define SERVO1_PIN                          PC9
+
+
+//power supply-relay
+#define PS_ON_PIN                           PF5  
+
 
 //
 // Trinamic Stallguard pins
