@@ -37,7 +37,7 @@
 #define EEPROM_FILENAME "eeprom.dat"
 
 #ifndef MARLIN_EEPROM_SIZE
-  #define MARLIN_EEPROM_SIZE 0x1000 // 4KB
+  #define MARLIN_EEPROM_SIZE 0x7FFF // 32KB
 #endif
 size_t PersistentStore::capacity() { return MARLIN_EEPROM_SIZE; }
 
