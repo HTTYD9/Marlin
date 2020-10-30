@@ -289,6 +289,13 @@
  *               EXP2                                              EXP1
  */
 
+// I2C_EEPROM
+#define I2C_EEPROM
+#ifdef E2END
+   #undef E2END
+#endif
+#define E2END 0x7FFF // EEPROM end address AT24C256 (32kB)
+
 //
 // LCDs and Controllers
 //
