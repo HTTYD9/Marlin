@@ -315,7 +315,7 @@
  */
 #define PSU_CONTROL
 #define PSU_NAME "Power Supply"
-
+#define PS_ON_PIN                           PF5  
 #if ENABLED(PSU_CONTROL)
   #define PSU_ACTIVE_STATE HIGH      // Set 'LOW' for ATX, 'HIGH' for X-Box
 

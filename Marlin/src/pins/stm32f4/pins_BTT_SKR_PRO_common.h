@@ -53,7 +53,7 @@
 
 
 //power supply-relay
-#define PS_ON_PIN                           PF5  
+//#define PS_ON_PIN                           PF5  
 
 
 //
@@ -363,7 +363,7 @@
 #endif // BTT_MOTOR_EXPANSION
 
 // I2C_EEPROM
-#define I2C_EEPROM
+//#define I2C_EEPROM
 #ifdef E2END
    #undef E2END
 #endif
