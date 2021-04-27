@@ -104,7 +104,7 @@
  *
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
-#define SERIAL_PORT -1
+#define SERIAL_PORT 2
 
 /**
  * Select a secondary serial port on the board to use for communication with the host.
@@ -1941,6 +1941,8 @@
  * you must uncomment the following option or it won't work.
  */
 #define SDSUPPORT
+
+#define USB_HOST_MSC_FLASH_SUPPORT
 
 /**
  * SD CARD: ENABLE CRC
