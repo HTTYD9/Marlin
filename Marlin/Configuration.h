@@ -1948,9 +1948,9 @@
  * to enable pendrive gcode printing
  */
  
-#define USB_HOST_MSC_FLASH_SUPPORT
-#define USB_FLASH_DRIVE_SUPPORT
-#define USE_OTG_USB_HOST
+//#define USB_HOST_MSC_FLASH_SUPPORT
+//#define USB_FLASH_DRIVE_SUPPORT
+//#define USE_OTG_USB_HOST
 /**
  * SD CARD: ENABLE CRC
  *
