@@ -37,7 +37,7 @@
  *
  * Advanced settings can be found in Configuration_adv.h
  */
-#define CONFIGURATION_H_VERSION 020008
+#define CONFIGURATION_H_VERSION 02000801
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -112,6 +112,13 @@
  * :[-2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
 #define SERIAL_PORT_2 3
+
+/**
+ * Select a third serial port on the board to use for communication with the host.
+ * Currently only supported for AVR, DUE, LPC1768/9 and STM32/STM32F1
+ * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
+ */
+//#define SERIAL_PORT_3 1
 
 /**
  * This setting determines the communication speed of the printer.
@@ -2584,13 +2591,7 @@
 //#define DWIN_CREALITY_LCD
 
 //
-// MarlinUI for Creality's DWIN display (and others)
-//
-//#define DWIN_MARLINUI_PORTRAIT
-//#define DWIN_MARLINUI_LANDSCAPE
-
-//
-// ADS7843/XPT2046 ADC Touchscreen such as ILI9341 2.8
+// Touch Screen Settings
 //
 //#define TOUCH_SCREEN // DONE BY CHITU BOARD
 #if ENABLED(TOUCH_SCREEN)
